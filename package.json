@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
-    "start:frontend": "cd frontend/app && npm start",
+    "start:frontend": "cd app && npm start",
     "start:backend": "cd backend && npm start"
   },
   "devDependencies": {
